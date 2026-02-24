@@ -1,0 +1,21 @@
+# n8n MCP Server Configuration
+
+server_name: "n8n-mcp"
+server_description: "MCP server for n8n workflow automation"
+
+# n8n API Configuration
+n8n_url: "http://localhost:5678"
+# api_key: Set via N8N_MCP_API_KEY environment variable
+timeout: 30.0
+
+# Mock Mode (for testing without n8n)
+mock_mode: false
+
+# HTTP Transport
+enable_http_transport: true
+http_host: "127.0.0.1"
+http_port: 3044
+
+# Logging
+log_level: "INFO"
+log_json: true
